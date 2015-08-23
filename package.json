@@ -1,0 +1,33 @@
+{
+  "name": "mkt-producer",
+  "description": "Market Trade Producer.",
+  "author": "Manuel Martins <manuelmachadomartins@gmail.com>",
+  "version": "0.0.1",
+  "license": "MIT",
+  "engine": "node >= 0.12.0",
+  "main": "./index",
+  "scripts": {
+    "test": "mocha test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mcmartins/mkt-producer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mcmartins/mkt-producer/issues"
+  },
+  "keywords": [
+    "api",
+    "producer",
+    "market"
+  ],
+  "dependencies": {
+    "bee-queue": ">=0.2.0",
+    "mongodb": ">=2.0.42"
+  },
+  "devDependencies": {
+    "codeclimate-test-reporter": ">=0.1.0",
+    "istanbul": ">=0.3.17",
+    "mocha": ">=2.2.5"
+  }
+}
