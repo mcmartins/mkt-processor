@@ -8,8 +8,14 @@ The messages are processed (just a new flag is created in the object - processed
 
 ## Run
 
+Windows:
 ```bash
-node MKT_CONFIG_FILE="/path/to/config.json" mkt-processor/index.js
+set MKT_CONFIG_FILE=\path\to\config.json&&node mkt-processor/index.js
+```
+
+Linux:
+```bash
+export MKT_CONFIG_FILE="/path/to/config.json";node mkt-processor/index.js
 ```
 
 ## Configurations
