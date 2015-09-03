@@ -9,5 +9,9 @@ The messages are processed (just a new flag is created in the object - processed
 ## Run
 
 ```bash
-node mkt-processor/index.js
+node MKT_CONFIG_FILE="/path/to/config.json" mkt-processor/index.js
 ```
+
+## Configurations
+
+The configurations file is shared among all the projects and is located in the [mkt-portal](https://github.com/mcmartins/mkt-portal) | [config.json](https://github.com/mcmartins/mkt-portal/blob/master/config.json)
