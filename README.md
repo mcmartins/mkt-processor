@@ -1,5 +1,7 @@
 # MKT Processor
 
+Currency Fair Achitecture Task
+
 ## Intro
 
 Process messages from the Job Queue. Each instance of this module is called Worker.
